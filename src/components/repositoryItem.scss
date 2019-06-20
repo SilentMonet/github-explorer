@@ -1,0 +1,23 @@
+.repositoryItem{
+    margin: 8px;
+    border: 1px none black;
+    border-top-style: solid;
+    .repoName{
+        font-size: large;
+        font-weight: bold;
+        color: burlywood;
+    }
+    .repoDescription{
+        font-size: small;
+    }
+    .repoMeta{
+        font-size: small;
+        .tag{
+            display: inline-block;
+            margin: 2px 4px;
+            padding: 0 1em;
+            background-color: antiquewhite;
+            border-radius: 8px;
+        }
+    }
+}
